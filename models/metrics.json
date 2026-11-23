@@ -1,0 +1,57 @@
+{
+  "accuracy": 0.4971,
+  "roc_auc_macro": 0.5775,
+  "per_class": {
+    "SELL": {
+      "precision": 0.338,
+      "recall": 0.0952,
+      "f1_score": 0.1486,
+      "support": 504
+    },
+    "HOLD": {
+      "precision": 0.5677,
+      "recall": 0.7723,
+      "f1_score": 0.6544,
+      "support": 1265
+    },
+    "BUY": {
+      "precision": 0.3135,
+      "recall": 0.267,
+      "f1_score": 0.2884,
+      "support": 633
+    }
+  },
+  "macro_avg": {
+    "precision": 0.4064,
+    "recall": 0.3782,
+    "f1_score": 0.3638
+  },
+  "weighted_avg": {
+    "precision": 0.4525,
+    "recall": 0.4971,
+    "f1_score": 0.4518
+  },
+  "confusion_matrix": [
+    [
+      48,
+      316,
+      140
+    ],
+    [
+      58,
+      977,
+      230
+    ],
+    [
+      36,
+      428,
+      169
+    ]
+  ],
+  "class_distribution": {
+    "SELL": 504,
+    "HOLD": 1265,
+    "BUY": 633
+  },
+  "total_samples": 2402
+}
