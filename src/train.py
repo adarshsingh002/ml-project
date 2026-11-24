@@ -137,6 +137,7 @@ def train(
         eval_set=[(X_test, y_test)],
         verbose=False,
     )
+    
     print(f"  Optimal trees: {model.best_iteration} (prevented overfitting from 300+ trees)")
 
     # 6. Evaluate
